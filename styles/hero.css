@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/hero-banner.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/hero-banner.avif);
     background-size: cover;
     background-position: center;
 }
@@ -22,6 +22,7 @@
     font-size: var(--font-small);
     font-family: var(--primary-font);
     color: var(--white);
+    text-align: center;
 }
 
 .hero__btn {

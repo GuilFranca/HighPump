@@ -10,6 +10,9 @@
 /* import hero style */
 @import url(./styles/hero.css);
 
+/* import modalidades section style */
+@import url(./styles/sectionModalidades.css);
+
 :root {
     --primary-font: "roboto", sans-serif;
     --title-font: "Oswald", sans-serif;
