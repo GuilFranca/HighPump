@@ -25,11 +25,8 @@
     --white: #FFF;
     --black: #111;
     --neon-red: #ff3131;
+    --red-hover: #cc0000;
     --gray: #666;
 
     --index-menu: 10;
-}
-
-img {
-    width: 100%;
 }

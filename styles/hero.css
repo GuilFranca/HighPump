@@ -1,8 +1,45 @@
 .hero {
     height: 100dvh;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../assets/hero-banner.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/hero-banner.avif);
     background-size: cover;
     background-position: center;
+}
+
+.hero__title {
+    font-size: var(--font-very-high);
+    color: var(--white);
+    font-family: var(--title-font);
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.hero__text {
+    font-size: var(--font-small);
+    font-family: var(--primary-font);
+    color: var(--white);
+}
+
+.hero__btn {
+    margin-top: 22px;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--neon-red);
+    cursor: pointer;
+    border: none;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: var(--font-small);
+
+    transition: all 0.4s ease-in-out;
+}
+
+.hero__btn:hover {
+    background-color: var(--red-hover);
+    transform: translateY(-5px)
 }
