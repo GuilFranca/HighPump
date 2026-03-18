@@ -7,6 +7,9 @@
 /* import header style */
 @import url(./styles/header.css);
 
+/* import hero style */
+@import url(./styles/hero.css);
+
 :root {
     --primary-font: "roboto", sans-serif;
     --title-font: "Oswald", sans-serif;
