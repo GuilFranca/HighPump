@@ -1,0 +1,32 @@
+/* import reset style */
+@import url(./styles/reset.css);
+
+/* import oswald font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* import header style */
+@import url(./styles/header.css);
+
+:root {
+    --primary-font: "roboto", sans-serif;
+    --title-font: "Oswald", sans-serif;
+
+    --font-very-small: 12px;
+    --font-small: 16px;
+    --font-mid: 20px;
+    --font-logo: 28.8px;
+    --font-high: 40px;
+    --font-very-high: 64px;
+
+    --background-color: #F4F4F4;
+    --white: #FFF;
+    --black: #111;
+    --neon-red: #ff3131;
+    --gray: #666;
+
+    --index-menu: 10;
+}
+
+img {
+    width: 100%;
+}
