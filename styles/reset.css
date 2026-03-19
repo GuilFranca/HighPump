@@ -47,21 +47,22 @@ table {
 	border-spacing: 0;
 }
 
-a{
-	text-decoration: none;
-	color: black;
-}
-
 /* Tira o contorno em volta dos inputs */
 textarea:focus, input:focus, select:focus {
     outline: 0;
 }
 
-/* Tira o contorno em volta dos inputs */
-textarea:focus, input:focus, select:focus {
-    outline: 0;
+/* Positionings and styling that will affect the intire body */
+body {
+    font-family: var(--primary-font);
+    background-color: var(--cor-de-fundo);
 }
 
-*{
-	box-sizing: border-box;
+a {
+    text-decoration: none;
+}
+
+* {
+    /* Tira o contorno azul dos cliques no mobile */
+    -webkit-tap-highlight-color: transparent;
 }
