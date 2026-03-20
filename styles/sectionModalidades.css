@@ -3,12 +3,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: var(--font-high);
+    /* font-size: var(--font-high); */
     gap: 20px;
 }
 
 .modalidades__title {
     color: var(--black);
+    font-size: var(--font-high);
     font-family: var(--title-font);
     font-weight: bold;
 }

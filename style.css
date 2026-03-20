@@ -13,6 +13,20 @@
 /* import modalidades section style */
 @import url(./styles/sectionModalidades.css);
 
+/* import servicos section style */
+@import url(./styles/sectionServicos.css);
+
+/* import footer style */
+@import url(./styles/footer.css);
+
+.spanRed {
+    color: var(--neon-red);
+}
+
+.spanWhite {
+    color: var(--white);
+}
+
 :root {
     --primary-font: "roboto", sans-serif;
     --title-font: "Oswald", sans-serif;
@@ -26,6 +40,7 @@
 
     --background-color: #F4F4F4;
     --white: #FFF;
+    --dark: #000;
     --black: #111;
     --neon-red: #ff3131;
     --red-hover: #cc0000;
