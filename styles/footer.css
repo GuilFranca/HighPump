@@ -23,7 +23,8 @@
 
 .footer__cta__text {
     color: var(--white);
-    font-size: var(--font-small);
+    font-size: var(--font-mid-small);
+    text-align: center;
 }
 
 .footer__cta__btn {
@@ -31,9 +32,9 @@
     background-size: 300% 100%;
 
     animation: gradientFlow 5s ease infinite;
-    
+
     transition: all 0.4s ease-in-out;
-    
+
     font-family: var(--primary-font);
     font-weight: bold;
     color: var(--white);
@@ -48,9 +49,17 @@
 }
 
 @keyframes gradientFlow {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 100%; }
-    100% { background-position: 0% 50%; }
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .footer__copyright {
@@ -62,4 +71,12 @@
 .footer__copyright a {
     font-family: var(--primary-font);
     color: var(--neon-red);
+}
+
+@media screen and (min-width: 768px) {
+    .footer__cta__text {
+        color: var(--white);
+        font-size: var(--font-small);
+        text-align: center;
+    }
 }

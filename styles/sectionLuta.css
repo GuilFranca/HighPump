@@ -1,0 +1,43 @@
+.section__luta {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(133, 6, 6, 0.6)), url(../assets/images/luta.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.section__luta__title {
+    color: var(--white);
+    font-family: var(--title-font);
+    font-weight: bold;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.section__luta__text {
+    color: var(--white);
+    font-family: var(--title-font);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+@media screen and (min-width: 768px) {
+    .section__luta__title {
+        color: var(--white);
+        font-family: var(--title-font);
+        font-weight: bold;
+        font-size: var(--font-very-high);
+    }
+
+    .section__luta__text {
+        color: var(--white);
+        font-family: var(--title-font);
+        font-weight: bold;
+        font-size: var(--font-high);
+    }
+}

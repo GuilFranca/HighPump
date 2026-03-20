@@ -13,8 +13,14 @@
 /* import modalidades section style */
 @import url(./styles/sectionModalidades.css);
 
+/* import dança section style */
+@import url(./styles/sectionDanca.css);
+
 /* import servicos section style */
 @import url(./styles/sectionServicos.css);
+
+/* import servicos section style */
+@import url(./styles/sectionLuta.css);
 
 /* import footer style */
 @import url(./styles/footer.css);
@@ -32,6 +38,7 @@
     --title-font: "Oswald", sans-serif;
 
     --font-very-small: 12px;
+    --font-mid-small: 14px;
     --font-small: 16px;
     --font-mid: 20px;
     --font-logo: 28.8px;
