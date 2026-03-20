@@ -9,6 +9,7 @@
     align-items: start;
     padding: 20px;
     gap: 20px;
+    text-align: left;
 }
 
 .section__danca__title {
