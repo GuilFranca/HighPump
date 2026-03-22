@@ -33,6 +33,13 @@
     color: var(--white);
 }
 
+/* fix bug AOS animation */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
+
 :root {
     --primary-font: "roboto", sans-serif;
     --title-font: "Oswald", sans-serif;
