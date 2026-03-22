@@ -9,3 +9,18 @@ window.addEventListener('scroll', function() {
         header.style.padding = '15px 0';
     }
 });
+
+// animation smoth scroll
+document.querySelectorAll('.header__menu-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop -85,
+                behavior: 'smooth'
+            })
+        } 
+    })
+});
