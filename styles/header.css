@@ -84,10 +84,6 @@
     display: none;
 }
 
-.header__menu-link:hover {
-    color: var(--neon-red);
-}
-
 .header__btn:hover {
     background-color: var(--black);
     color: var(--neon-red);
@@ -113,6 +109,10 @@
 
     .header__menu {
         gap: 20px;
+    }
+
+    .header__menu-link:hover {
+        color: var(--neon-red);
     }
 
     /* .header__menu-link {
