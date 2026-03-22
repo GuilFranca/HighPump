@@ -1,6 +1,6 @@
 .section__danca {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(133, 6, 6, 0.6)), url(../assets/images/dance-studio.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(133, 6, 6, 0.6)), url(../assets/images/dance-studio.png);
     background-size: cover;
     background-position: bottom;
     display: flex;

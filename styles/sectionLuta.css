@@ -1,7 +1,7 @@
 .section__luta {
     height: 100vh;
     /* background: linear-gradient(rgba(133, 6, 6, 0.6), rgba(0, 0, 0, 1)), url(../assets/images/luta.jpg); */
-    background: linear-gradient(rgba(0, 0, 0, 6), rgba(133, 6, 6, 0.6)), url(../assets/images/luta.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 6), rgba(133, 6, 6, 0.6)), url(../assets/images/luta.png);
     background-size: cover;
     background-position: bottom;
     display: flex;
